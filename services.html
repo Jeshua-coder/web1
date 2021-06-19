@@ -3,13 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Family Physio Care</title>
-    <style>
-    div.b {
-      text-align: right;
-    }
-  </style>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESGPV548EN"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="colors.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -17,17 +14,39 @@
 
   gtag('config', 'G-ESGPV548EN');
 </script>
+  <link rel="stylesheet" href="style.css">
   </head>
   <body>
-   <h1><a href="index.html">Family Physio Care</a></h1>
-   <div class="b"><h2><a href="booking.html">Booking web pages</a></h2></div>
-<ol>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="services.html">Services</a></li>
-  <li><a href="location.html">Location</a></li>
-  <li><a href="news.html">News</a></li>
-</ol>
-   <h2>Services</h2>
+    <header>
+      <h1><a href="index.html">Family Physio Care</a></h1>
+    </header>
+    <input id="night_day" type="button" name="" value="night" onclick="
+      nightDayHandler(this);
+    ">
+<div id="grid">
+  <ul>
+    <li><span class="b"><h4><a href="booking.html">Booking web pages</a></h4></span>
+        </li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="location.html">Location</a></li>
+    <li><a href="news.html">News</a></li>
+  </ul>
+  <div id="article">
+    <h2>Services</h2>
+    <p>
+       The body of knowledge of physical therapy is large, and therefore physical
+       therapists may specialize in a specific clinical area. While there are many
+       different types of physical therapy, the American Board of Physical Therapy
+       Specialties lists ten current specialist certifications. Most Physical
+       Therapists practicing in a specialty will have undergone further training,
+       such as an accredited residency program, although individuals are currently
+       able to sit for their specialist examination  after 2,000 hours of focused
+       practice in their respective specialty population, in addition to
+       requirements set by each respective specialty board.
+    </p>
+  </div>
+</div>
 
   </body>
 </html>

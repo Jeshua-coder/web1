@@ -3,33 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>Family Physio Care</title>
-    <style>
-    div.b {
-      text-align: right;
-    }
-  </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESGPV548EN"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="colors.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-ESGPV548EN');
+
 </script>
+  <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
-   <h1><a href="index.html">Family Physio Care</a></h1>
-   <div class="b"><h2><a href="booking.html">Booking web pages</a></h2></div>
-<ol>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="services.html">Services</a></li>
-  <li><a href="location.html">Location</a></li>
-  <li><a href="news.html">News</a></li>
-</ol>
+    <h1><a href="index.html">Family Physio Care</a></h1>
+    <input id="night_day" type="button" name="" value="night" onclick="
+      nightDayHandler(this);
+    ">
+<div id="grid">
+  <ul>
+    <li><span class="b"><h4><a href="booking.html">Booking web pages</a></h4></span>
+        </li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="location.html">Location</a></li>
+    <li><a href="news.html">News</a></li>
+  </ul>
+
+<div id="article">
    <h2>Location</h2>
    <p style="margin-top:40px">
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.2855328456294!2d138.62736361565243!3d-34.94945148338078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0ce983ca36849%3A0x2d4f3ed0ac164731!2sUnit%204%2F212%20Glen%20Osmond%20Rd%2C%20Fullarton%20SA%205063!5e0!3m2!1sen!2sau!4v1621846212997!5m2!1sen!2sau" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" alt="google map"></iframe>
    </p>
+
+</div>
+</div>
   </body>
 </html>

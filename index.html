@@ -3,13 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Family Physio Care [✔️Booking]</title>
-  <style>
-    div.b {
-      text-align: right;
-    }
-  </style>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESGPV548EN"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="colors.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -17,32 +14,50 @@
 
   gtag('config', 'G-ESGPV548EN');
 </script>
-  </head>
+<link rel="stylesheet" href="style.css">
+ </head>
   <body>
     <header>
-      <h1><a href="#">Family Physio Care</a></h1>
-      <div class="b"><h2><a href="booking.html">Booking web pages</a></h2></div>
+      <h1><a href="index.html">Family Physio Care</a></h1>
+    </header>
+    <input id="night_day" type="button" name="" value="night" onclick="
+      nightDayHandler(this);
+    ">
+<div id="grid">
+  <ul>
+    <li><span class="b"><h4><a href="booking.html">Booking web pages</a></h4></span>
+        </li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="location.html">Location</a></li>
+    <li><a href="news.html">News</a></li>
+  </ul>
+
+<!--
+    <header>
+      <h1><a href="#"><font color="red">Family Physio Care</font></a></h1>
+      <div class="b"><h2><a href="booking.html"><font color="red">Booking web pages</font></a></h2></div>
     </header>
     <nav>
       <ol>
-        <li><a href="#">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="location.html">Location</a></li>
-        <li><a href="news.html">News</a></li>
+        <li><a href="#"><font color="red">Home</font></a></li>
+        <li><a href="services.html"><font color="red">Services</font></a></li>
+        <li><a href="location.html"><font color="red">Location</font></a></li>
+        <li><a href="news.html"><font color="red">News</font></a></li>
       </ol>
     </nav>
-    <article class="">
+  -->
+    <div id="article">
       <h2>Introduction</h2>
       <p>
-      <!--
-      <iframe width="100%" height="600" src="https://www.youtube.com/embed/IuUutEuuDpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      -->  
+        <iframe width="100%" height="600" src="https://www.youtube.com/embed/IuUutEuuDpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </p>
       <p style="margin-top:40px">
         <img src="Physio.jpg" alt="workout" width="100%">
       </p>
-    </article>
-  <!--Start of Tawk.to Script-->
+    </div>
+</div>
+    <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -56,4 +71,4 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <!--End of Tawk.to Script-->
   </body>
-</html>
+</html><font color="red">
